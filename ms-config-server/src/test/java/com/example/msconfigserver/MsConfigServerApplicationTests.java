@@ -1,14 +1,13 @@
-package com.example.mscarrito;
+package com.example.msconfigserver;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
+class MsConfigServerApplicationTests {
 
-class MsCarritoApplicationTests {
-
-    @Test
-    void contextLoads() {
-    }
+	@Test
+	void contextLoads() {
+	}
 
 }

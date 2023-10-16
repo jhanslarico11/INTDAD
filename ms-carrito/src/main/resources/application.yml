@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: ms-carrito-service
+    profiles:
+      actve: development
+      config:
+        import: optional:configserver:http://root:s3cr3t@localhost:7070
