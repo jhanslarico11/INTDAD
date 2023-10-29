@@ -19,3 +19,13 @@ spring:
           uri: lb://ms-carrito-service
           predicates:
             - Path=/carrito/**
+
+        - id: ms-pagos-service
+          uri: lb://ms-pago-service
+          predicates:
+            - Path=/pagos/**
+
+        - id: ms-factura-service
+          uri: lb://ms-pago-service
+          predicates:
+            - Path=/factura/**
